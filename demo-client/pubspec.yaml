@@ -1,0 +1,39 @@
+name: infobip_mi_demo_app
+description: Infobip Mobile Identity Demo Application.
+publish_to: 'none'
+
+version: 0.0.2+4
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.5
+  bloc: ^8.0.0
+  flutter_bloc: ^8.1.2
+  shared_preferences: ^2.0.18
+  flutter_form_bloc: ^0.31.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+  flutter_launcher_icons: ^0.13.1
+  flutter_native_splash: ^2.2.19
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/images/launcher_icon.svg"
+
+flutter_native_splash:
+  color: "#FFFFFF"
+  image: "assets/images/splash_image.svg"
+
+flutter:
+  uses-material-design: true
+  generate: true
+  assets:
+    - assets/images/

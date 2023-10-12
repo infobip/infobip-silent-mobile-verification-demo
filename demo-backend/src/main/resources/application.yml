@@ -1,0 +1,12 @@
+server:
+  port: 8080
+
+verify:
+  zombie-requests-check-rate: "0 */20 * * * *"
+  callback-endpoint: https://<your-domain>:${server.port}/verify/callback
+  using-proxy: false
+
+infobip-http-client:
+  timeout: 15s
+  infobip-base-url: "api.infobip.com"
+  authorization: "App <your-authorization-key>"
