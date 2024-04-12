@@ -2,7 +2,7 @@ name: infobip_mi_demo_app
 description: Infobip Mobile Identity Demo Application.
 publish_to: 'none'
 
-version: 0.0.2+4
+version: 1.0.0
 
 environment:
   sdk: '>=3.3.0 <4.0.0'

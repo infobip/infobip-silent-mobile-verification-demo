@@ -6,7 +6,7 @@
 
     <groupId>org.infobip.mip</groupId>
     <artifactId>demo-backend</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>1.0.0</version>
 
     <properties>
         <java.version>19</java.version>
